@@ -10,7 +10,7 @@ for (let i = 0; i < sportsList.length; i++) {
 
 sportsContainer.addEventListener('click', function (e) {
   console.log(e.target.getAttribute('class') + ' is clicked');
-  const target = target;
+  const target = e.target;
   target.style.backgroundColor = 'lightgrey';
 })
 
